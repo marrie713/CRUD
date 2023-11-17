@@ -1,10 +1,76 @@
-*{
+* {
     margin: 0;
-    outline: 0;
     padding: 0;
     box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    font-family: 'Poppins', sans-serif;    
 }
 
-#Logo{
-    width: 2rem;
+/* Organizando os itens do menu */
+#navbar-items .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+/* Ajustando os links */
+#navbar-items a {
+    color: white;
+    font-size: 1em;
+    margin-left: 2em;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+#container-banner {
+    margin-top: 6.5em;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.btn-maiseu {
+    background: rgb(0, 0, 0);
+}
+
+.navbar-brand img {
+    font-size: 2em;
+}
+
+i {
+    font-size: 3em;  
+}
+
+a,h1,p,label,span{
+    color: white;
+}
+
+.cor{
+    color: #000;
+}
+
+.logo{
+    width: 5rem;
+}
+
+#container-carousel {
+    margin-top: 1em;
+}
+
+.bg-crud {
+    background: hsl(238, 54%, 27%);
+}
+
+.bi {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.modal-content{
+   background-color:hsl(238, 54%, 27%);; 
 }
